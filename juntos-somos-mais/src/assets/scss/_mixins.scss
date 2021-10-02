@@ -1,0 +1,4 @@
+@mixin padding-screen-width {
+  padding-left: calc(50vw - $max-half-screen-width);
+  padding-right: calc(50vw - $max-half-screen-width);
+}
